@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: gold;
+  text-align: center;
+  width: 100%;
+}
+
+/* NAVIGATION BAR */
+
+.logo {
+  width: 30%;
+}
+
+.nav-item {
+  padding-top: 20px;
+}
+
+.navigationlinktab {
+  font-size: 20px;
+  color: gold;
+  padding: 0px 20px 0 20px;
+}
+
+.navigationlinktab:hover {
+  color: white;
+}
+
+.navigationbar {
+  padding: 45px 55px;
+}
+
+/* CONTACT US IMAGE */
+
+.contactusimg {
+  padding-top: 50px;;
+  width: 80%;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social {
+  padding: 200px 180px 40px 180px;
+}
+
+ .iconimage {
+   width: 15%;
+ }
+
+ .gmail {
+   width: 5%;
+   padding-top: 150px;
+   position: relative;
+   left: 10px;
+   padding-bottom: 80px;
+ }
+
+ /* FOOTER */
+
+ footer {
+   /* padding-top: 50px; */
+   background-color: white;
+ }
+
+ .socialmediaiconsfooter {
+   position: relative;
+   right: 20px;
+ }
+
+ .footericonimage {
+   padding-left: 50px;
+   /* padding-bottom: 80px; */
+ }
+
+ p {
+   color: black;
+   font-weight: bold;
+   padding-bottom: 50px;
+ }
+
+ .linksfortabs {
+   padding-bottom: 40px;
+   position: relative;
+   right: 25px;
+ }
+
+ .links {
+   font-size: 20px;
+   color: black;
+   padding-left: 80px;
+ }
+
+ .wordplaytext {
+   text-align: left;
+   color: black;
+ }
+
+
+ @media (max-width: 1028px) {
+
+   .social {
+     padding: 90px 60px 80px 80px;
+   }
+
+  .gmail {
+    width: 15%;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+}
